@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: New Script Graph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":159.0,"y":90.0},"zoom":1.0,"elements":[{"type":"UnityEngine.UI.Outline","instance":true,"static":true,"defaultValues":{"target":null},"position":{"x":-313.0,"y":-105.0},"guid":"d17467f3-8b92-4ed9-8722-caf3f10ab8ca","$version":"A","$type":"Unity.VisualScripting.Expose","$id":"9"},{"type":"UnityEngine.Color","instance":true,"static":true,"defaultValues":{"target":{"r":1.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"}},"position":{"x":21.0,"y":-173.0},"guid":"f3e73529-91a7-42c2-8e1d-b1209657b877","$version":"A","$type":"Unity.VisualScripting.Expose","$id":"11"},{"member":{"name":"effectColor","parameterTypes":null,"targetType":"UnityEngine.UI.Outline","targetTypeName":"UnityEngine.UI.Outline","$version":"A"},"defaultValues":{"target":null},"position":{"x":-206.0,"y":265.0},"guid":"3353929f-b0c8-4d08-ad87-d86d9269f066","$version":"A","$type":"Unity.VisualScripting.GetMember"},{"chainable":false,"member":{"name":"r","parameterTypes":null,"targetType":"UnityEngine.Color","targetTypeName":"UnityEngine.Color","$version":"A"},"defaultValues":{"target":{"r":1.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"input":{"$content":100.0,"$type":"System.Single"}},"position":{"x":262.0,"y":26.0},"guid":"30126779-5a8d-48d0-80d2-e2b730e5e729","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"effectColor","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"4a43b6c1-14af-42b7-86e1-4b0fb0b8c7de","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"red","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"bfd9197a-a7e1-4566-b650-ada143c6c4e5","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
